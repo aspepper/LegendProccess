@@ -1,0 +1,54 @@
+<UserControl
+    x:Class="ProcessaLegendas.Views.MainMenu"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:assets="using:ProcessaLegendas.Assets"
+    xmlns:controls="using:ProcessaLegendas.Components"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:ProcessaLegendas.ViewModels"
+    d:DesignHeight="800"
+    d:DesignWidth="1280"
+    x:DataType="vm:MainMenuViewModel"
+    mc:Ignorable="d">
+
+    <Design.DataContext>
+        <vm:MainMenuViewModel />
+    </Design.DataContext>
+
+    <Viewbox Stretch="Uniform" StretchDirection="Both">
+        <Grid RowDefinitions="30,30,30,30,30,30,30,30,70">
+
+            <!--  Botão Carregar Legenda Original  -->
+            <controls:AcadesButton ButtonCommand="{Binding OpenLoadOriginalLegends}" LabelContent="{x:Static assets:Resources.ButtonLoadLegends}" />
+            <!--<Border
+                Grid.Row="0"
+                Grid.Column="1"
+                Margin="5,3,10,5"
+                Padding="0"
+                Background="#D1D3D4"
+                BoxShadow="3 3 5 0 #A9A9A9"
+                CornerRadius="6">
+
+                <Button
+                    Padding="0"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    Background="Transparent">
+                    <Label
+                        Margin="0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Content="{x:Static assets:Resources.ButtonLoadLegends}"
+                        FontSize="10"
+                        FontWeight="Bold"
+                        Foreground="#FFFFFF" />
+                </Button>
+
+            </Border>-->
+
+        </Grid>
+    </Viewbox>
+
+
+</UserControl>

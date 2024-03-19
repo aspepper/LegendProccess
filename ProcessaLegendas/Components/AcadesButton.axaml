@@ -1,0 +1,42 @@
+<Styles
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:ProcessaLegendas.Components">
+    <Design.PreviewWith>
+        <controls:AcadesButton />
+    </Design.PreviewWith>
+
+    <Style Selector="controls|AcadesButton">
+        <!--  Set Defaults  -->
+        <Setter Property="Template">
+            <ControlTemplate>
+                <Border
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Margin="5,3,10,5"
+                    Padding="0"
+                    Background="#D1D3D4"
+                    BoxShadow="3 3 5 0 #A9A9A9"
+                    CornerRadius="6">
+
+                    <Button
+                        Padding="0"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Stretch"
+                        Background="Transparent"
+                        Command="{TemplateBinding ButtonCommand}">
+                        <Label
+                            Margin="0"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Content="{TemplateBinding LabelContent}"
+                            FontSize="10"
+                            FontWeight="Bold"
+                            Foreground="#FFFFFF" />
+                    </Button>
+
+                </Border>
+            </ControlTemplate>
+        </Setter>
+    </Style>
+</Styles>

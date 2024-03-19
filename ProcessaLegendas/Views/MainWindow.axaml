@@ -1,0 +1,49 @@
+<Window
+    x:Class="ProcessaLegendas.Views.MainWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="using:ProcessaLegendas.Views"
+    xmlns:vm="using:ProcessaLegendas.ViewModels"
+    Title="ProcessaLegendas"
+    d:DesignHeight="800"
+    d:DesignWidth="1280"
+    x:DataType="vm:MainWindowViewModel"
+    Icon="/Assets/avalonia-logo.ico"
+    mc:Ignorable="d">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel />
+    </Design.DataContext>
+
+    <Viewbox Stretch="Uniform" StretchDirection="Both">
+        <DockPanel Width="1280" Height="800">
+
+            <Panel
+                Width="200"
+                Height="800"
+                DockPanel.Dock="Left">
+
+                <views:MainMenu HorizontalAlignment="Center" VerticalAlignment="Top" />
+            </Panel>
+
+            <Panel
+                Width="1080"
+                Height="800"
+                DockPanel.Dock="Right">
+                <DockPanel Width="1080" Height="800">
+
+                    <TransitioningContentControl
+                        Name="CurrentContentView"
+                        Height="700"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Top"
+                        Content="{Binding CurrentContentView}"
+                        DockPanel.Dock="Top" />
+                </DockPanel>
+            </Panel>
+
+        </DockPanel>
+    </Viewbox>
+</Window>
