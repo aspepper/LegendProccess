@@ -9,5 +9,22 @@
     d:DesignWidth="1280"
     x:DataType="vm:MainViewModel"
     mc:Ignorable="d">
-    Welcome to Avalonia!
+
+    <Viewbox Stretch="Uniform" StretchDirection="Both">
+        <Grid ColumnDefinitions="540,540" RowDefinitions="800">
+            <TextBox
+                Name="TextSourceFileContent"
+                Grid.Row="0"
+                Grid.Column="0"
+                CaretIndex="10000"
+                Text="{Binding SourceFileContent}" />
+            <TextBox
+                Name="TextDestFileContent"
+                Grid.Row="0"
+                Grid.Column="1"
+                CaretIndex="10000"
+                Text="{Binding TargetFileContent}" />
+        </Grid>
+    </Viewbox>
+
 </UserControl>

@@ -27,4 +27,8 @@
 	    <value>Load Ledends</value>
 	</data>
 
+	<data name="ButtonLoadTarget" xml:space="preserve">
+	    <value>Load Target File</value>
+	</data>
+
 </root>

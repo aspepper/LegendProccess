@@ -25,6 +25,16 @@
 		<PackageReference Include="Avalonia.ReactiveUI" Version="11.0.10" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\ProccessTextFiles\ProccessTextFiles.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <AvaloniaXaml Update="Components\AcadesButtonOpenFileDialog.axaml">
+	    <SubType>Designer</SubType>
+	  </AvaloniaXaml>
+	</ItemGroup>
+
 
 	<ItemGroup>
 		<EmbeddedResource Update="Assets\Resources.resx">
@@ -38,6 +48,10 @@
 			<DesignTime>True</DesignTime>
 			<AutoGen>True</AutoGen>
 			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Components\AcadesButtonOpenFileDialog.axaml.cs">
+		  <SubType>Code</SubType>
+		  <DependentUpon>AcadesButtonOpenFileDialog.axaml</DependentUpon>
 		</Compile>
 		<Compile Update="Views\SensorMicrocontroladorVRPView.axaml.cs">
 			<DependentUpon>SensorMicrocontroladorVRPView.axaml</DependentUpon>

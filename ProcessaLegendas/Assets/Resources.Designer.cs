@@ -77,5 +77,14 @@ namespace ProcessaLegendas.Assets {
                 return ResourceManager.GetString("ButtonLoadLegends", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Load Target File.
+        /// </summary>
+        public static string ButtonLoadTarget {
+            get {
+                return ResourceManager.GetString("ButtonLoadTarget", resourceCulture);
+            }
+        }
     }
 }

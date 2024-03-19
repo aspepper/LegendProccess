@@ -15,7 +15,7 @@ namespace ProccessTextFiles
             return File.ReadLines(filePath);
         }
 
-        public async Task<string> InsertTimes(IEnumerable<string> fileSource, IEnumerable<string> fileDestination, string filePathTo)
+        public string InsertTimes(IEnumerable<string> fileSource, IEnumerable<string> fileDestination, string filePathTo)
         {
             int l = 0;
             StringBuilder strb = new();
@@ -30,10 +30,18 @@ namespace ProccessTextFiles
                     l++;
                 }
             }
-            using StreamWriter file = new(filePathTo, false);
-            await file.WriteLineAsync(strb.ToString());
+            if (File.Exists(filePathTo)) { File.Delete(filePathTo); }
+            using (StreamWriter file = new(filePathTo, false))
+            {
+                file.WriteLineAsync(strb.ToString());
+            }
 
             return strb.ToString();
+        }
+
+        public string ListToString(IEnumerable<string> content)
+        {
+            return String.Join(Environment.NewLine, content);
         }
 
         [GeneratedRegex("(.*):(.*):(.*).(.*),(.*):(.*):(.*).(.*)")]

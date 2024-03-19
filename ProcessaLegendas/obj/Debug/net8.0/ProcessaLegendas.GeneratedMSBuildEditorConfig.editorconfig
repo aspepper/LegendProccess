@@ -23,6 +23,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/Components/AcadesButton.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/Components/AcadesButtonOpenFileDialog.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/Views/MainMenu.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 

@@ -28,4 +28,8 @@
 	    <value>Carrega Legenda</value>
 	</data>
 
+	<data name="ButtonLoadTarget" xml:space="preserve">
+	    <value>Carrega Tradução</value>
+	</data>
+
 </root>

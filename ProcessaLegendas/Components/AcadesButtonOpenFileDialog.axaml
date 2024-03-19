@@ -3,10 +3,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:controls="using:ProcessaLegendas.Components">
     <Design.PreviewWith>
-        <controls:AcadesButtonOpenFileDialog />
+        <controls:AcadesButton />
     </Design.PreviewWith>
 
-    <Style Selector="controls|AcadesButtonOpenFileDialog">
+    <Style Selector="controls|AcadesButton">
         <!--  Set Defaults  -->
         <Setter Property="Template">
             <ControlTemplate>
@@ -20,11 +20,11 @@
                     CornerRadius="6">
 
                     <Button
-                        x:Name="buttonm"
                         Padding="0"
                         HorizontalAlignment="Stretch"
                         VerticalAlignment="Stretch"
-                        Background="Transparent">
+                        Background="Transparent"
+                        Command="{TemplateBinding ButtonCommand}">
                         <Label
                             Margin="0"
                             HorizontalAlignment="Center"
