@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProcessaLegendas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b088ddd267f7587b5868d8528139822d3ae69df7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProcessaLegendas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProcessaLegendas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

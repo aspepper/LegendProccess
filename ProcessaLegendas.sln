@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessaLegendas", "ProcessaLegendas\ProcessaLegendas.csproj", "{CF81F46C-D2D0-4FC1-A378-DC6914F9DAFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessaLegendasConsole", "ProcessaLegendasConsole\ProcessaLegendasConsole.csproj", "{D368454E-D6C7-48BD-9EDD-88FAC4E2EC85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessaLegendasConsole", "ProcessaLegendasConsole\ProcessaLegendasConsole.csproj", "{D368454E-D6C7-48BD-9EDD-88FAC4E2EC85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProccessTextFiles", "ProccessTextFiles\ProccessTextFiles.csproj", "{8E0180DF-6CF7-4A35-9B27-DB0BB529709C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D368454E-D6C7-48BD-9EDD-88FAC4E2EC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D368454E-D6C7-48BD-9EDD-88FAC4E2EC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D368454E-D6C7-48BD-9EDD-88FAC4E2EC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E0180DF-6CF7-4A35-9B27-DB0BB529709C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E0180DF-6CF7-4A35-9B27-DB0BB529709C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E0180DF-6CF7-4A35-9B27-DB0BB529709C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E0180DF-6CF7-4A35-9B27-DB0BB529709C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

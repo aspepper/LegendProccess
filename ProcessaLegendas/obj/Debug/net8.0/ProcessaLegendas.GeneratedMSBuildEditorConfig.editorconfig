@@ -1,4 +1,9 @@
 is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
 build_property.TargetFramework = net8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -11,3 +16,18 @@ build_property.RootNamespace = ProcessaLegendas
 build_property.ProjectDir = C:\Projects\POCs\ProcessaLegendas\ProcessaLegendas\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/Components/AcadesButton.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/Views/MainMenu.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/Views/MainView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

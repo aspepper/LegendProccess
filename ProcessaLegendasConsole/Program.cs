@@ -1,35 +1,21 @@
-﻿using System.Text;
+﻿using ProccessTextFiles;
+using System.Text;
 using System.Text.RegularExpressions;
 
 internal partial class Program
 {
-    private static void Main(string[] args)
+    private static async Task Main(string[] args)
     {
         string filelocFrom = @"C:\Users\Alex Pimenta\Downloads\captions-pt-br.sbv";
-        string filelocTo = @"C:\Users\Alex Pimenta\Downloads\captions-en-us.sbv";
+        string filelocDest = @"C:\Users\Alex Pimenta\Downloads\captions-en-us-clear.sbv";
         string filelocNew = @"C:\Users\Alex Pimenta\Downloads\captions-en-us-New.sbv";
 
-        IEnumerable<string> linesFrom = File.ReadLines(filelocFrom);
-        List<string> linesTo = File.ReadLines(filelocTo).ToList();
-        int l = 0;
-        StringBuilder strb = new();
-        foreach(string line in linesFrom){
-            if(TimeLegend().IsMatch(line))
-            {
-                strb.AppendLine(line);
-                strb.AppendLine(linesTo[l]);
-                strb.AppendLine("");
-                l++;
-            }
-        }
-        using (StreamWriter file = new(filelocNew, false))
-        {
-            file.WriteLine(strb.ToString()); // "sb" is the StringBuilder
-        }
-        Console.WriteLine(String.Join(Environment.NewLine, strb.ToString()));
+        ProcessTextFiles legends = new();
+        var fileFromContent = await legends.ReadFileSBV(filelocFrom);
+        var fileDestContent = await legends.ReadFileSBV(filelocDest);
+
+        Console.WriteLine(await legends.InsertTimes(fileFromContent, fileDestContent, filelocNew));
 
     }
 
-    [GeneratedRegex("(.*):(.*):(.*).(.*),(.*):(.*):(.*).(.*)")]
-    private static partial Regex TimeLegend();
 }
