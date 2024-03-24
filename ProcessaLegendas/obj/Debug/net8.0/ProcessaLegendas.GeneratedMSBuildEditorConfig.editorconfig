@@ -13,24 +13,24 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProcessaLegendas
-build_property.ProjectDir = C:\Projects\POCs\ProcessaLegendas\ProcessaLegendas\
+build_property.ProjectDir = /Users/alexpimenta/Projects/LegendProccess/ProcessaLegendas/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/App.axaml]
+[/Users/alexpimenta/Projects/LegendProccess/ProcessaLegendas/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/Components/AcadesButton.axaml]
+[/Users/alexpimenta/Projects/LegendProccess/ProcessaLegendas/Components/AcadesButton.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/Components/AcadesButtonOpenFileDialog.axaml]
+[/Users/alexpimenta/Projects/LegendProccess/ProcessaLegendas/Components/AcadesButtonOpenFileDialog.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/Views/MainMenu.axaml]
+[/Users/alexpimenta/Projects/LegendProccess/ProcessaLegendas/Views/MainMenu.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/Views/MainView.axaml]
+[/Users/alexpimenta/Projects/LegendProccess/ProcessaLegendas/Views/MainView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Projects/POCs/ProcessaLegendas/ProcessaLegendas/Views/MainWindow.axaml]
+[/Users/alexpimenta/Projects/LegendProccess/ProcessaLegendas/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

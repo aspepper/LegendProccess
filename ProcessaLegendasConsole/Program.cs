@@ -4,18 +4,33 @@ using System.Text.RegularExpressions;
 
 internal partial class Program
 {
-    private static async Task Main(string[] args)
+    private static void Main(string[] args)
     {
-        string filelocFrom = @"C:\Users\Alex Pimenta\Downloads\captions-pt-br.sbv";
-        string filelocDest = @"C:\Users\Alex Pimenta\Downloads\captions-en-us-clear.sbv";
+        // string command = args[0];
+        // string filelocFrom = args[1];
+        // string filelocDest = args[2];
+        // string filelocNew = args[3];
+
+        string command = "strip";
+        string filelocFrom = @"/Users/alexpimenta/Documents/Projects/Youtube/DevForge/20240321-Poder das Aplicações Desktop - Tudo o que Você Precisa Saber/captions.sbv";
+        string filelocDest = @"captions-clear.sbv";
         string filelocNew = @"C:\Users\Alex Pimenta\Downloads\captions-en-us-New.sbv";
 
         ProcessTextFiles legends = new();
-        var fileFromContent = await legends.ReadFileSBV(filelocFrom);
-        var fileDestContent = await legends.ReadFileSBV(filelocDest);
-
-        Console.WriteLine(await legends.InsertTimes(fileFromContent, fileDestContent, filelocNew));
-
+        if (command == "strip")
+        {
+            legends.ReadFileSource(filelocFrom);
+            legends.StripTimes(filelocDest);
+        }
+        else if (command == "fill")
+        {
+            legends.ReadFileSource(filelocFrom);
+            legends.ReadFileTarget(filelocDest);
+            Console.WriteLine(legends.InsertTimes(legends.FileSourceContent, legends.FileTargetContent, filelocNew));
+        }
+        else
+        {
+            Console.WriteLine("Nada foi produzido.");
+        }
     }
-
 }
