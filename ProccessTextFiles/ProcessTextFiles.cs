@@ -46,7 +46,7 @@ namespace ProccessTextFiles
             if (File.Exists(filePathTo)) { File.Delete(filePathTo); }
             using (StreamWriter file = new(filePathTo, false))
             {
-                file.WriteLineAsync(strb.ToString());
+                file.WriteLine(strb.ToString());
             }
 
             return strb.ToString();
@@ -67,7 +67,7 @@ namespace ProccessTextFiles
             if (File.Exists(filePathTo)) { File.Delete(filePathTo); }
             using (StreamWriter file = new(filePathTo, false))
             {
-                file.WriteLineAsync(strb.ToString());
+                file.WriteLine(strb.ToString());
             }
 
             return strb.ToString();

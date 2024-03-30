@@ -1,482 +1,579 @@
-Olá pessoal bem-vindo ao Dev Forge o seu
-canal de desenvolvimento Meu nome é Alex
-Pimenta e no vídeo de hoje vamos falar
-tudo sobre aplicações desktop você sabe
-o que são e para que servem Vem comigo
+Olá pessoal! Bem-vindo ao DevForge o seu
+canal de desenvolvimento. Meu nome é Alex
+Pimenta, e no vídeo de hoje vamos falar
+tudo sobre aplicações desktop. Você sabe
+o que são é, para que servem? Vem comigo
 que eu vou mostrar tudo que você precisa
-saber Neste vídeo eu vou te falar sobre
-o conceito de aplicações desktop as
+saber. Neste vídeo eu vou te falar sobre
+o conceito de aplicações desktop, as
 vantagens e as desvantagens em relação a
 outros tipos de aplicativos e dar dicas
-práticas para você que quer desenvolver
-ou utilizar esse tipo de aplicação ao
+práticas para você, que quer desenvolver
+ou utilizar esse tipo de aplicação. Ao
 final você vai entender como as
-aplicações desktop pode ser útil e te
+aplicações desktop podem ser útiis, e te
 ajudar em diversas situações do dia a
-dia então você quer entender melhor
+dia. Então, você quer entender melhor
 sobre tecnologia e como as aplicações
-desktop podem facilitar a sua vida não
-saia daí continue assistindo e descubra
-todo o potencial das aplicações desktop
-nos vemos depois da
-vinheta
-aplicações desktop são programas de
+desktop podem facilitar a sua vida? Não
+saia daí, continue assistindo e descubra
+todo o potencial das aplicações desktop.
+Nos vemos depois da
+vinheta...
+Aplicações desktop, são programas de
 software projetados para serem
 executados em computadores pessoais ou
-notebooks diferenciam-se de aplicações
+notebooks. Diferenciam-se de aplicações
 web e mobile por serem instalados
-localmente na máquina do
-usuária exemplos comuns incluem editores
-de textos planilhas reprodutores de
-mídia e jogos oferecem funcionalidades
-avançadas e de alta performance ideal
+localmente, na máquina do
+usuário. Exemplos comuns incluem editores
+de textos, planilhas, reprodutores de
+mídia e jogos. Oferecem funcionalidades
+avançadas e de alta performance, ideal
 para tarefas de processamento intensivo
-ou acesso a recursos locais permitem
-trabalhar offline se depender de uma
-conexão de internet são mais seguros em
-relação a dados sensíveis uma vez que os
-dados são armazenados localmente melhor
-Performance em relação a aplicações web
+ou acesso a recursos locais. Permitem
+trabalhar offline, sem depender de uma
+conexão de internet. São mais seguros em
+relação a dados sensíveis, uma vez que os
+dados são armazenados localmente. Melhor
+performance em relação a aplicações web,
 especialmente em tarefas que exijam
-muito processamento acesso a recursos do
+muito processamento, acesso a recursos do
 sistema operacional como sistema de
-arquivos e periféricos conectados maior
+arquivos e periféricos conectados. Maior
 controle sobre interface do usuário e
-personalização requer instalação e
-atualizações manuais o que pode ser
-incômodo para alguns usuários não são
-tão acessíveis quanto aplicações web já
+personalização. Requer instalação e
+atualizações manuais, o que pode ser
+incômodo para alguns usuários. Não são
+tão acessíveis quanto aplicações web, já
 que dependem da instalação em cada
-máquina escolha uma linguagem de
-programação já dei dicas sobre isso em
-outros vídeos no meu canal procure
-csharp por exemplo para Windows forms ou
-wpf java com swing ou Java Effects
-Python entre outras linguagens Design da
-interface priorize a usabilidade e a
-experiência do usuário testes realize
+máquina. Escolha uma linguagem de
+programação. Já dei dicas sobre isso em
+outros vídeos no meu canal. Procure!
+C#, por exemplo, para Windows Forms ou
+WPF, Java com swing ou JavaFX,
+Python entre outras linguagens. Design da
+interface. Priorize a usabilidade e a
+experiência do usuário. Testes. Realize
 testes rigorosos para garantir a
 estabilidade e a segurança do
-usuário antes de tudo precisamos
-preparar o ambiente e instalar o visual
-Studio se já tiver o visual Studio
-instalado pule para a parte da criação
-do aplicativo Fala galera tudo bom vou
-demonstrar aqui a instalação do Windows
-Tá o que que a gente vai fazer a gente
-vai instalar o Windows community que ele
-é é gratuito tá não precisa ser pago ele
-tem menos recursos que o Windows
-professional menos recursos por exemplo
-que o enterprise mas ele é um é
-suficiente para para qualquer
-programador desenvolver qualquer tipo de
-aplicação tanto aplicações
-eh para Windows forms quanto pra
-web como uma aplicação para a para
-dispositivos móveis vocês vão fazer por
-aqui tá então tudo que eu ensinar para
-vocês daqui pra frente vai ser através
-do visual Studio tanto podemos
-desenvolver aplicações que nem hoje vou
-ensinar vocês vou explicar como
-desenvolve Como criar uma pequena um
+usuário. Antes de tudo precisamos
+preparar o ambiente e instalar o Visual
+Studio. Se já tiver o Visual Studio
+instalado, pule para a parte da criação
+do aplicativo. Fala galera, tudo bom? Vou
+demonstrar aqui a instalação do Visual Studio.
+Tá! O que a gente vai fazer? A gente
+vai instalar o Visual Studio Community, ele
+é gratuito. Tá? Não precisa ser pago. Ele
+tem menos recursos que o Visual Studio
+Professional. Menos recursos, por exemplo,
+que o Enterprise. Mas ele é
+suficiente para qualquer
+programador. Desenvolver qualquer tipo de
+aplicação. Tanto aplicações
+Windows, com Windows Forms, quanto pra
+WEB, como aplicação para
+dispositivos móveis. Vocês vão fazer por
+aqui. Tá? Então tudo que eu ensinar para
+vocês, daqui pra frente, vai ser através
+do Visual Studio. Tanto podemos
+desenvolver aplicações, que nem hoje vou
+explicar como
+desenvolve. Como criar um
 pequeno exemplo de uma aplicação Windows
-forms Mas vamos lá vamos instalar o
-Windows primeira coisa primeiro passo
-fazer a gente abre aqui
-o o Ed né pode abrir qualquer o
-navegador da sua preferência tá então
-faz uma busca aqui
-ó
-visual
-Stúdio
-community não importa qual a versão Que
-você teja que você tenha mais versão
-mais mais atual que esteja disponível
-e o que importa é que ele vai para ele
-vai mandar pra tela de
-baixar aão tá gratuita que essa é o
-primeiro link
-normalmente só clicar
-aqui e aqui a gente tem
-o a página tá
-do do visual Studio
-community é uma ideia
-gratuita extensível e completo para
-criar aplicativos modernos para Android
-IOS Windows bem como aplicativos web e
-serviços de
-nuvens Pessoal esse essa versão do
-Windows community embora seja gratuita
-ela é muito completa tá vocês vão
+Forms. Mas vamos lá. Vamos instalar o
+Visual Studio. Primeiro passo que vamos
+fazer. A gente abre aqui,
+o Edge. Né!? Pode abrir qualquer
+navegador da sua preferência. Tá? Então
+faz uma busca aqui,
+"Visual Studio Community".
+Não importa qual a versão que
+você queira. Que você tenha. Versão
+mais atual que esteja disponível.
+O que importa é que ele vai
+mandar para a tela de
+baixar a versão gratuita. É o
+primeiro link normalmente.
+Só clicar aqui. E aqui a gente tem
+a página do visual Studio
+Community. É uma IDE
+gratuita, extensível e completa para
+criar aplicativos modernos para Android,
+iOS, Windows, bem como aplicativos web e
+serviços de nuvens.
+Pessoal, essa versão do
+Visual Sudio Community, embora seja gratuita,
+ela é muito completa. Vocês vão
 precisar de uma
-versão Maisa com uma professional uma
-enterprise
-caso caso seja
-um um Tech Leader alguém que vai ter que
-fazer uma análises melhores em relação
-ao
-código
-beleza gente então vamos lá vamos a
-instalação primeira coisa baixar depois
-de
-você entrar no site de download dessa
-versão é só clicar em
-baixar ele vai baixar a versão Tá
-baixando já tá
-ó lá já está
-baixando baixou já tá só tô esperando
-aqui ele terminar
-Ok
-terminou clica ali dá Yes que dá sim né
-no caso de vocês não sei como é que tá a
-versão do Windows de vocês eu vou
-Minimizar isso aqui pra gente ver
-primeira coisa que ele faz ele mostra o
-instalador do visual Studio antes de de
+versão professional, uma
+enterprise,
+caso seja
+um Tech Leader, alguém que vai ter que
+fazer uma análise melhor em relação
+ao código. Beleza gente?
+Então vamos lá. Vamos a
+instalação. Primeira coisa é baixar, depois
+de você entrar no site de download dessa
+versão, é só clicar em
+"Baixar". Ele vai baixar a versão. 
+Está baixando já. 
+Olha lá! Já está
+baixando. Baixou já. Só estou esperando
+aqui, ele terminar.
+Ok, terminou. Clica ali, dá "Yes", ou "Sim" 
+no caso de vocês, não sei como é que tá a
+versão do Windows de vocês. Eu vou
+minimizar isso aqui, pra gente ver.
+Primeira coisa que ele faz, ele mostra o
+instalador do visual Studio, antes de
 iniciar vai fazer
-ajustes e muitas coisas
-tá então você pode e então
-você poderá configurar sua instalação
-Então vamos lá vamos começar ele vai
-começar baixar o installer visual Studio
-aqui porque na verdade ele baixou um um
-pequeno aplicativo para baixar o o
-instalador tá então esse aqui é o
-instalador do visual Studio vamos
-maximizar aqui ok esse aqui é o
-instalador do visual Studio 2 no meu
-caso aqui nesse dia aqui é o 2000 e 22
-17.9.1 e aqui ele vai mostrar os pacotes
-tá os módulos que ele tem para preparar
-o ambiente para você desenvolver
-determinadas coisas então você vai
-selecionar o módulo aqui Dependendo do
-que você vai precisar eh desenvolver se
+ajustes em muitas coisas.
+Então você poderá configurar sua instalação.
+Então vamos lá. Vamos começar. Ele vai
+começar a baixar o installer do Visual Studio.
+Porque, na verdade, ele baixou um
+pequeno aplicativo, para baixar o
+instalador. Então esse aqui é o
+instalador do Visual Studio. Vamos
+maximizar. Esse aqui é o
+instalador do Visual Studio. No meu
+caso aqui, nesse dia aqui, é o 2022
+17.9.4. E aqui ele vai mostrar os pacotes,
+os módulos que tem para preparar
+o ambiente para você desenvolver.
+Determinadas coisas. Então você vai
+selecionar o módulo aqui, dependendo do
+que você vai precisar desenvolver. Se
 você precisar desenvolver
-eh aplicações web
-aspnet tá
-vendo rml JavaScript
-containers você adiciona esse cara se
-você vai desenvolver PR pro pro tá você
-clica nesse cara se você vai desenvolver
-Python você clica nesse cara se você vai
-desenvolver node clica nesse cara e aqui
+aplicações web,
+ASP.Net - tá
+vendo? - HTML, JavaScript,
+Containers, você adiciona esse cara. 
+Se você vai desenvolver pro Azure, você
+clica nesse cara. Se você vai desenvolver
+Python, você clica nesse cara. Se você vai
+desenvolver Node, clica nesse cara. E aqui
 embaixo tem desktop e
-mobile al em cima lá web e CLS então tem
-as categorias Tá então vamos lá pra
-categoria qu cinco aqui
-eh aqui ele vai instalar o mawai Ok
-vamos instalar o mawai
-eh wpf vai instalar Windows forms esse
-aqui
-ã desktop c+ mais não não vou trabalhar
-com c+ mais então mas se você for
-trabalhar com c+ mais você clica aqui e
-o WP desenvolvimento uwp vamos clicar
-também que o WP é evolução do wpf tá
-gente então é é isso vai desenvolver
-para mobile com CC não vou Vai
-desenvolver jogos com Unity não vou Você
-é um desenvolvedor de game com c+ mais
-não Então é assim eu vou selecionar aqui
+mobile. Aqui em cima tem Web & Cloud. Então tem
+as categorias. Então vamos lá. Pra
+categoria cinco aqui.
+E aqui ele vai instalar o MAUI. Ok?
+Vamos instalar o MAUI.
+WPF, vai instalar Windows Forms é esse
+aqui.
+Annn! Desktop C++, não, não vou trabalhar
+com C++, mas se você for
+trabalhar com C++, você clica aqui. 
+E UWP, desenvolvimento UWP, vamos clicar
+também. O UWP, é a evolução do WPF.
+Então é isso. Vai desenvolver
+para mobile com C++? Não vou. Vai
+desenvolver jogos com Unity? Não vou. Você
+é um desenvolvedor de Game com C++?
+Não. Então é assim. Eu vou selecionar aqui,
 os módulos que realmente eu vou precisar
-para desenvolver PR as minhas
-necessidades de desenvolvimento aqui pra
-frente tá ã conect com testes e que ser
-é também isso aqui ciência de
-dados Não não vou fazer extensões do do
-visual Stúdio pode ser
-ah não share Point não vou Linux
-developer mas mas também não tá então
-vamos lá
-instalar você pode instalar Enquanto
-Aqui eu tem as opções tá que é instalar
-enquanto vai baixando ou instalar tudo
-de depois que baixar não vamos vamos
-instalando conforme vai baixando
-tá bom pessoal agora ele vai começar ele
-vai startar o download vai começar a
-instalar eu volto daqui a pouco quando
-terminar tiver no
-finalzinho bom pessoal finalmente
-terminou a instalação eu esqueci de
-falar para vocês aqui a gente pode
-quer ver uma coisa bom aqui mostro que
-tá instalado tá eu posso modificar Ok
-ele vai voltar lá na parte da dos dos
-pacotes eu posso instalar componentes
-separados tá vamos supor que você esteja
-trabalhando com net com net 5 net 6 tá
-então você pode escolher aqui tá algumas
-coisas
-e o Net Framework mais antigo também
-você pode selecionar Opa Deixa eu voltar
-aqui
-o ter é por categoria tá categoria do
-Cloud Database server e Tools aqui ó se
-eu quiser instalar c+ mais tá os
-compiladores e tudo mais tá tem vários
-pacotes aqui a mais tem vários
-componentes separados que você a gente
-pode selecionar e instalar junto ok isso
+para desenvolver. Para as minhas
+necessidades de desenvolvimento, aqui pra
+frente. Ahhh! Connect, Develop, and Test Data...
+É. Também esse aqui. Ciência de
+Dados? Não, não vou fazer. Extensões do
+Visual Stúdio? Pode ser.
+Não. Share Point não vou. Linux
+developer. Também não. Tá? Então
+vamos lá.
+"Instalar". Você pode instalar enquanto...
+Aqui eu tem as opções, tá? Que são: Instalar
+enquanto vai baixando, ou instalar tudo
+depois que baixar. Não. Vamos
+instalando conforme vai baixando.
+Bom pessoal. Agora ele vai começar. Ele
+vai startar o download, vai começar a
+instalar. Eu volto daqui a pouco quando
+terminar. Tiver no Finalzinho.
+Bom pessoal finalmente
+terminou a instalação. Eu esqueci de
+falar para vocês que aqui a gente pode,
+quer ver uma coisa? Bom. Aqui mostra o que
+está instalado. Tá? Eu posso modificar.
+Ele vai voltar na parte dos
+pacotes, eu posso instalar componentes
+separados. Vamos supor que você esteja
+trabalhando com Net5, Net6. Tá?
+Então você pode escolher aqui, algumas
+coisas, como o Net Framework mais antigo, também
+você pode selecionar. Opa! Deixa eu voltar
+aqui. Tem por categoria, categoria do
+Cloud, Database, and Server. Code Tools aqui. Se
+eu quiser instalar C++, os
+compiladores, e tudo mais. Tem vários
+pacotes aqui a mais, tem vários
+componentes separados que a gente
+pode selecionar e instalar junto. Ok? Isso
 pode ser feito antes da instalação ou
-pode ser feito depois é só modificar tá
-clicar na modificação e selecionar o que
-você o componente que você quiser aqui
-tá você pode mudar a linguagem também
-imagina que eu quero que você queira o
-Windows português aqui eu tô acostumado
-com Windows inglês então eu não gosto do
-Windows português então você pode
-selecionar aqui o Windows Windows em
-português que ele vai instalar e aqui
+pode ser feito depois. É só modificar,
+clicar na modificação e selecionar o
+o componente que você quiser, aqui
+tá? Você pode mudar a linguagem também.
+Imagina que você queira o
+Visual Studio em Português? Aqui. Eu tô acostumado
+com Visual Sudio em Inglês, então eu não gosto do
+Visual Studio em Português, então você pode
+selecionar aqui o Visual Studio em
+Português, que ele vai instalar. E aqui
 você diria qual o local que ele ia ser
-instalado mas tudo bem já foi feito
-vamos embora é isso fecha tudo Vamos
-abrir o visual Studio agora vem aqui
-digita visual
-Studio tem o installer tá e tem o visual
-Studio que ele instalou mesmo que é esse
-aqui ó visual Studio 2022 na quando você
-tiver vendo esse vídeo Pode ser que haja
-um mais recente Mas o que eu instalei
-agora foi o 2022 tá clica nele ele vai
-abrir a primeira vez
-ã ele abre nessa nessa essa tela aqui
-você pode continuar sem sem selecionar
-nenhum código mas a gente vai mas é isso
-a instalação do visual Studio e a
-preparação do ambiente é só isso tá eh
-voltem pro vídeo aí depois a gente vai
-ensinar como criar uma aplicação eh
-Window Windows forms até mais gente mas
-antes do exemplo preciso falar sobre
-algo muito importante prometo que será
-rapidinho é sobre algo que vem
-transformando a indústria e as vendas
-tornando-a mais eficazes e mais
-eficientes estou falando de análise de
-dados ou data Analytics e para trabalhar
-nessa área é essencial dominar a
-linguagem SQL e se você domina o SQL se
-abrirão diversas portas para você para
-desenvolvimento de software análise de
-dados gerenciamento de banco de dados e
-muito mais tornando-se uma habilidade
+instalado. Mas tudo bem, já foi feito.
+Vamos embora. É isso, fecha tudo. Vamos
+abrir o Visual Studio, agora vem aqui
+digita Visual
+Studio, tem o installer e tem o Visual
+Studio que ele instalou mesmo, que é esse
+aqui "Visual Studio 2022", quando você
+tiver vendo esse vídeo, pode ser que haja
+um mais recente. Mas o que eu instalei
+agora foi o 2022. Tá? Clica nele, ele vai
+abrir a primeira vez.
+Ele abre nessa tela aqui,
+você pode continuar sem selecionar
+nenhum código. Mas é isso.
+A instalação do Visual Studio e a
+preparação do ambiente é só isso, tá? 
+Voltem pro vídeo aí, depois a gente vai
+ensinar como criar uma aplicação 
+Window Forms. Até mais gente. 
+Mas antes do exemplo, preciso falar sobre
+algo muito importante. Prometo que será
+rapidinho. É sobre algo que vem
+transformando a indústria e as vendas,
+tornando-as mais eficazes e mais
+eficientes. Estou falando de Análise de
+Dados ou Data Analytics. E para trabalhar
+nessa área, é essencial dominar a
+linguagem SQL. Se você domina o SQL, se
+abrirão diversas portas para você. Para
+desenvolvimento de software, análise de
+dados, gerenciamento de banco de dados e
+muito mais, tornando-se uma habilidade
 valiosa e muito bem remunerada no
-mercado de trabalho quer contribuir para
-melhorar a eficiência e à vendas de
-qualquer indústria na descrição do vídeo
-deixarei um link para meu EB domínio
-esell o guia definitivo para se tornar
-um especialista em banco de dados
-voltando ao vídeo agora que seu ambiente
-já está preparado Vamos criar um editor
-de texto simples este editor de texto
-terá funcionalidades básicas como abrir
-editar texto e salvar vamos agora criar
+mercado de trabalho. Quer contribuir para
+melhorar a eficiência e às vendas de
+qualquer indústria? Na descrição do vídeo
+deixarei um link para meu E-Book: Domine
+o SQL, o Guia Definitivo para se Tornar
+um Especialista em Banco de Dados.
+Voltando ao vídeo. Agora que seu ambiente
+já está preparado. Vamos criar um editor
+de texto simples. Este editor de texto
+terá funcionalidades básicas, como abrir,
+editar texto, e salvar. Vamos agora criar
 um editor de texto simples com Windows
-forms tá como é que a gente vai fazer a
-gente vai criar aqui ó criar um novo
-projeto ele vai abrir aqui para mim
-todos os projetos quaos recentes como
-acabei de instalar Windows não tem
-nenhum projeto que eu que eu fiz recente
-Mas a gente pode procurar aqui ó Windows
-forms ok uma aplicação forms a gente
-clica aqui é com c sharp tá que a gente
-vai criar você pode criar com visual
-visual base também eu prefiro a
-linguagem CP tá D next vamos dar o nome
-pro nosso pro nosso editor de textos tá
-simples vai
-Dev Forge Edit
-Ok simples assim aqui o local beleza
-vamos
-embora eu tenho só uma opção aqui de
-Framework que a gente instalou só o
-frame net 8 Ok e vamos dar o criar ele
-vai criar a
-nossa
-aplicação aqui ele mostrou aqui quando
-ele abriu a primeira vez o que é novo no
-nesse
-o que que é novo nesse nessa versão
-tá E vamos lá primeira coisa ele já
-criou aqui uma primeira o primeiro
-formulário tá a gente vai excluir
-ele vamos excluir ele aqui ó não vamos
-excluir não vamos renomear ele aqui
-vamos dar um rename para ele vamos
-escrever form Main Ok formulário
-principal aí ele vai alterar todas as
-referências desse esse formulário eu
-renomeei aqui o meu formulário para Form
-M ok a gente só vai ter Vamos só aqui
+Forms. Como é que a gente vai fazer? 
+A gente vai criar aqui, criar um novo
+projeto. Ele vai abrir aqui para mim
+todos os projetos, os recentes como
+acabei de instalar Visual Studio, não tem
+nenhum projeto que eu que eu fiz recente.
+Mas a gente pode procurar aqui, Windows
+Forms. Uma aplicação Windows Forms a gente
+clica aqui, é com C#  que a gente
+vai criar. Você pode criar com 
+Visual Basic também, eu prefiro a
+linguagem C#. Dá Next, vamos dar o nome
+pro nosso editor de textos simples.
+Vai ser DevForge Edit,
+simples assim. Aqui o local, beleza?
+Vamos embora, eu tenho só uma opção aqui de
+Framework, que a gente instalou. Só o
+Net8. Ok? E vamos clicar no "Criar".
+Ele vai criar a nossa
+aplicação aqui. Ele mostrou aqui, quando
+ele abriu a primeira vez,
+o que é novo nesse versão.
+E vamos lá. Primeira coisa. Ele já
+criou aqui o primeiro
+formulário, a gente vai excluir
+ele. Vamos excluir ele aqui? Não vamos
+excluir não, vamos renomear ele.
+Vamos dar um "Rename" para ele. Vamos
+escrever FormMain, Ok? Formulário
+principal, aí ele vai alterar todas as
+referências desse esse formulário. Eu
+renomeei aqui o meu formulário para FormMain.
+A gente só vai ter. Só vamos
 ter certeza que ele vai abrir esse
-formulário tá form Main tá vendo ele já
-alterou todas as referências Então como
-é que funciona um uma aplicação Windows
-form funciona da seguinte forma você ele
-vai ele vai abrir quando você executar
-ele vai executar o program tá Main que
+formulário, tá? FormMain. Tá vendo? Ele já
+alterou todas as referências. Então como
+é que funciona uma aplicação Windows
+Form? Funciona da seguinte forma. Ele
+vai abrir, quando você executar
+ele vai executar o Program, Main, que
 mais ou menos parecido com
-console só que ele tem essa essa tag
-aqui que é TR Ou seja é uma trade padrão
-e ele vai ele inicializa as
-configurações da aplicação e e executa o
-novo o novo formulário tá que é esse
-aqui esse cara aqui ok abrimos ele aqui
-aqui do lado eu vou
-colocar deixa eu ver aqui
-viu vamos colocar a barra
-de de ferramentas aqui barra de
-ferramentas Ok barra de ferramentas tá
-aqui do lado é onde a gente vai colocar
-as nossas os nossos controles tá eles
-vão ter todos os controles ali Windows
-forms é muito simples pra gente digitar
-esse
-esse isso aqui a gente vai no F4 que vai
-mostrar as propriedades eu não gosto das
-propriedades desse jeito eu coloco aqui
-no meio as propriedades vão ficar aqui ó
-vão ficar para cá deixa eu colocar Deixa
-eu só arrastar lá para cá Bel e aqui ó
-quando clica aqui ele mostra todas as
-propriedades da janela tá dessa dessa
-janela principal
-e o nome
-dela se ela vai ser se ela vai poder
-aumentar ou não se ela vai ter um
-aumento automático ou não se ela vai
-aumentar automaticamente o modo de de
-aumentar automaticamente e tal tudo mais
-tá E aqui
-embaixo vai ter o texto que vai ali em
-cima eu vou colocar aqui
-ó Dev
-Forge Dev Forge Edit apareceu ali em
-cima da Forge Edit eu posso até colocar
-com espaço aqui ó para ficar mais
-bonitinho Dev for Edit OK segunda coisa
-é um editor de textos Simples então vai
-ter um menu aqui deixa eu ver aqui menus
-eus a gente vai colocar um menu
-strip ok ele fica aqui em cima e a gente
-vai incluir
-aqui uma opção do menu
-arquivo Ok e embaixo Aqui ó
-opa
-embaixo a gente vai colocar aqui
-abrir o próximo vai ser
-é
-salvar e o próximo vai
-ser sair ok então a gente tem três
-opções aqui abrir salvar e
-sair próxima coisa que eu vou
-fazer eu vou
-colocar
-um controle comum aqui que vai ser um
-text
-box é só arrastar para cá Ok temos aqui
-um
-textbox eu quero que ele fique na tela
-toda esse textbox que que eu faço para
-ficar na tela toda eu venho aqui ó nas
-propriedades Primeiro vou dar um nome
-para ele que vai ser TXT é
-conteúdo
-OK e eu coloco TXT porque para dizer que
-é um que é um texto Ok
-eh e o
-Size deixa eu ver
-aqui aqui
-ó
-doc pronto ele pegou
-fio Ah mas ele ficou ali em
-cima
-bom beleza eu acho que ele pegou tudo
-hein Não só ficou aqui em
-cima nenhum
-Ah M ah múltiplas linhas sim beleza
-agora sim agora eu posso colocar ol
-coloquei múltiplas linhas e o DOC agora
-eu completo ele totalmente ele fica na
-tela inteira tá gente Então vamos lá
-outra coisa que eu preciso fazer eu
+Console. Só que ele tem essa Tag (Data Annotation)
+aqui, que é STAThread, ou seja, é uma Thread Padrão.
+Ele inicializa as
+configurações da aplicação, e executa o
+novo formulário, que é esse
+aqui. Esse cara aqui. Abrimos ele aqui.
+Aqui do lado eu vou
+colocar... deixa eu ver aqui.
+Vamos colocar a barra
+de ferramentas, barra de
+ferramentas. Ok? Barra de ferramentas.
+Aqui do lado é onde a gente vai colocar
+os nossos controles. Eles
+vão ter todos os controles do Windows
+Forms. É muito simples pra gente digitar
+isso. Aqui a gente vai clicar no F4, que vai
+mostrar as propriedades. Eu não gosto das
+propriedades desse jeito, eu coloco aqui
+no meio as propriedades, vão ficar aqui.
+Vão ficar para cá. Deixa eu colocar. Deixa
+eu só arrastar lá para cá. E aqui,
+quando clica aqui, ele mostra todas as
+propriedades da janela. Dessa
+janela principal.
+O nome dela,
+se ela vai poder
+aumentar ou não, se ela vai ter um
+aumento automático ou não, se ela vai
+aumentar automaticamente, o modo de
+aumentar automatico e tals, tudo mais.
+E aqui embaixo vai ter o texto que vai ali
+em cima, eu vou colocar aqui
+"DevForgeEdit", apareceu ali em
+cima "DevForgeEdit" eu posso até colocar
+com espaço aqui, para ficar mais
+bonitinho "Devfor Edit". Segunda coisa
+é um editor de textos simples, então vai
+ter um menu aqui. Deixa eu ver aqui menus
+e a gente vai colocar um MenuStrip.
+Ele fica aqui em cima. E a gente
+vai incluir aqui uma opção do menu
+"Arquivo". E embaixo, aqui
+embaixo, a gente vai colocar aqui
+"Abrir", o próximo vai ser
+"Salvar", e o próximo vai
+ser "Sair". Então a gente tem três
+opções aqui, "Abrir", "Salvar" e
+"Sair". Próxima coisa que eu vou
+fazer, eu vou colocar
+um controle comum aqui, que vai ser um
+TextBox. É só arrastar para cá. Ok, temos aqui
+um TextBox. Eu quero que ele fique na tela
+toda, esse TextBox, o que eu faço para
+ficar na tela toda? Eu venho aqui, nas
+propriedades. Primeiro vou dar um nome
+para ele, que vai ser txtConteúdo.
+OK? E eu coloco TXT, para dizer que
+é um texto. Ok?
+E Size... deixa eu ver
+aqui, Dock. Pronto ele pegou
+Fill. Ah! Mas ele ficou ali em cima.
+Bom. Beleza! Eu acho que ele pegou tudo,
+hein!? Não só ficou aqui em
+cima...
+Ah! Múltiplas linhas, sim. Beleza!
+Agora sim, agora eu posso colocar 
+múltiplas linhas e o Dock Fill. Agora
+eu completo ele totalmente, ele fica na
+tela inteira. Então vamos lá.
+Outra coisa que eu preciso fazer, eu
 preciso criar agora o que vai acontecer
-quando eu clicar no botão Abrir tá clico
-duas vezes aqui ó ele vai me
-criar aqui
-o v permitir que eu digite o código que
-vai ser para
-abrir eu já tenho um código pronto aqui
-tá só vou colocar aqui vou colar Talvez
-eu tenha que mudar o nome Ah eu vou
-mudar o nome daqui ó
-TXT conteúdo ó lá já mostrou para mim só
-dar um Tab beleza
-e aqui eu não preciso declarar eu não
-posso não preciso e inicializar essa
-esse
-o já que eu tô já que eu tô dizendo aqui
-ó tô definindo para ele Qual é o tipo
-desse desse objeto aqui aqui que é um
-stream reader eu não preciso colocar New
-exam reader posso colocar só New Tá ok
-arquivos da
-TX OK aí ele lê o arquivo todo e coloca
-o conteúdo lá e se der algum problema
-vai dar erro a abrir ao abrir agora a
-gente vai colocar o o agora a gente vai
-colocar o conteúdo de quando clicar no
-salvar que que ele vai
-fazer
-TXT conteúdo
-Opa TXT conteúdo Ok bom Aqui é o
-seguinte ele cria uma Nova Instância
-do o save do Diálogo Das da caixa de
-diálogo
-save
-beleza só New a caixa de diálogo save
-aqui também ele fez a mesma coisa eu vou
-eu
-vou mostrar uma outra forma de escrever
-isso aqui que ficar bem
-melhor que é uma forma mais moderna oin
-também não precisa ser desse jeito tá o
-US pode ser simplificado desse
-jeito o usin também pode ser aqui
-simplificado desse jeito aqui ok ele vai
-ele vai salvar o arquivo Se der algum
-problema na hora de salvar o arquivo Eu
-tenho um try Cat ele vai dar mostrar que
-teve um problema e agora a gente vai
-fazer o código de sair vem aqui e vamos
-clicar duas vezes aqui no
-sair o único código que vai ter aqui é o
-application Exit ele vai sair eu posso
-implementar alguma coisa mais mais legal
-aqui que é o seguinte Ok vou fixar aqui
-beleza fixei vou fixar todos os
-nomes vou fixar tudo porque tem uma
-violação aqui ó tá vendo os nomes das da
-dos dos métodos eles têm que começar com
-letra maiúscula tá gente então como eu
-dei o nome com letra minúscula lá
-ele como ele colocou com letra minúscula
-então beleza Tá aqui vamos ver se tá tá
-compilando shift contrl B tá buildando
-tá compilando compilou com sucesso ok a
-gente pode implementar aqui com mais
-coisa por exemplo eu vou colocar aqui um
-uma variável
-Private bule que vai
+quando eu clicar no botão Abrir, tá clico
+duas vezes aqui, ele vai me
+criar aqui, ou melhor,
+vai permitir que eu digite o código do
+abrir, eu já tenho um código pronto aqui.
+Só vou colocar aqui. Vou colar. Talvez
+eu tenha que mudar o nome. Ah! Eu vou
+mudar o nome aqui do
+txtConteudo. Já mostrou para mim só
+dar um Tab e beleza.
+Aqui eu não preciso declarar, eu não
+posso, não preciso inicializar...
+Já que eu tô dizendo aqui,
+estou definindo para ele, qual é o tipo
+desse objeto aqui, que é um
+StreamReader. Eu não preciso colocar new
+StreamReader, posso colocar só o new(). 
+Arquivos da TXT.
+Aí ele lê o arquivo todo, e coloca
+o conteúdo lá, e se der algum problema
+vai dar erro ao abrir. Agora a
+gente vai colocar o
+código de quando clicar no
+salvar, o que ele vai fazer. 
+txtConteudo.
+Opa! txtConteudo. Ok? bom. Aqui é o
+seguinte, ele cria uma nova instância
+da caixa de diálogo do Save.
+beleza. Só new. Da caixa de diálogo save...
+Aqui também ele fez a mesma coisa, eu vou
+eu vou mostrar uma outra forma de escrever
+isso aqui, que ficar bem
+melhor, que é uma forma mais moderna. O using
+também não precisa ser desse jeito. Tá? O
+using, pode ser simplificado desse
+jeito. O using também aqui, pode ser
+simplificado desse jeito. Aqui. Ok! Ele vai
+salvar o arquivo, se der algum
+problema na hora de salvar o arquivo,
+tem um try-catch, onde vai mostrar que
+teve um problema. E agora a gente vai
+fazer o código de "Sair". Vem aqui, e vamos
+clicar duas vezes no
+"Sair". O único código que vai ter aqui, é o
+Application.Exit(). Ele vai sair. Eu posso
+implementar alguma coisa mais legal
+aqui. Que é o seguinte. Vou fixar aqui,
+beleza? Fixei vou fixar todos os
+nomes. Vou fixar tudo porque tem uma
+violação aqui. Tá vendo? Os nomes
+dos métodos, têm que começar com
+letra maiúscula. Tá, gente? Então como eu
+dei o nome com letra minúscula lá,
+ele colocou com letra minúscula aqui.
+Então, beleza, Tá aqui. Vamos ver se tá
+compilando? <shift> + <control> + <B>, está Buildando...
+Está compilando... compilou com sucesso.
+A gente pode implementar aqui, com mais
+coisa, por exemplo eu vou colocar
+uma variável "private bool", que vai
 ser
-is
+"is"
 vai
-modificado misturar um pouco do inglês
-com português eu que inicializa c
+"isModificado", vou misturar um pouco do inglês
+com português. Que inicializa como
+"false". Ela é falsa. Deixa eu ver se...
+Não precisa ser readonly, não.
+E aqui é o seguinte, eu vou criar um
+evento. Eu vou fazer um "if" aqui
+"if"
+"isModificado". Então ele vai fazer o
+seguinte. É message gente? É MessageBox, tá?
+"MessageBox.Show(...)". Agora sim "show". Aí eu
+coloco aqui, o que eu quero que apareça,
+o texto que eu quero que
+apareça: "O texto foi
+modificado, quer salvar as modificações?"
+E aqui a gente coloca...
+O que vai em cima, no título,
+"Confirmação". E aqui a gente vai colocar
+O MessageBoxButtons
+ponto Yes ou No.
+Deixa eu ver o que ele tá
+falando aqui. Ah! Não é um bool, é um var,
+porque ele vai retornar 
+um objeto, ele vai trazer
+um objeto novo ali, que é um objeto
+DialogResult, beleza? E eu verifico aqui
+embaixo, se confirma igual a
+"Yes", o que que ele vai fazer? Bom gente, é o
+seguinte.
+Eu posso executar isso aqui, tá? Como é que
+eu executo? Executo assim,
+beleza,
+gente!?
+Bom.
+Vamos ver se ele vai dar
+erro. Eu acho que ele não... bom! Ele
+compilou com sucesso, beleza? Compilou com
+sucesso. Então ele não deu erro. Se o
+usuário confirmar que quer salvar, então ele
+vai salvar e depois ele vai sair. Caso
+contrário ele só sai. Vamos testar o arquivo?
+Vamos testar o programa agora? É só
+executar aqui. Vamos lá gente. Testando o
+programa. Vamos criar aqui... Vamos
+abrir tudo, né!? Editor de texto. É o editor
+de texto do modo Light, tá!? Vamos abrir o
+arquivo, vamos pegar qualquer documento
+aqui, deixa eu ver aqui, "Novo", não
+"Notes", "Negativo-Positivo.txt". Vamos lá, clico
+duas vezes, é isso Negativo: "desinteresse no
+funcionamento...", beleza! Positivo... O lá! Eu dei
+um <enter>, tá!? Olha! Não, primeiro vamos fazer o
+seguinte, agora ele vai... Ah! Um outro
+detalhe, esqueci de fazer um negócio. Vamos
+lá, vamos fechar aqui. Eu esqueci de
+colocar o evento, de que vai mudar
+esse sinal aqui
+de...
+que vai mudar meu a...
+Minha o assistente aqui da Apple
+respondeu. Mas vamos
+lá, vamos colocar aqui,
+nesse cara aqui, no txtConteudo, vamos
+nas propriedades.
+E aí a gente procura a propriedade de
+mudança,
+tá? Que vai
+ser... ModifiedChanged,
+se eu não me engano, é essa aqui.
+Então o que a gente vai fazer
+quando for feito uma modificação
+qualquer? A gente pega ele aqui igual a
+"true". Beleza?
+Agora aparentemente ele vai funcionar,
+vamos lá, vamos testar
+aqui. Vamos
+testar. Vamos abrir o arquivo
+novamente, que é "Negativo-Positivo.txt". Foi esse
+arquivo que eu abri? Olha! Quando eu não
+altero nada, eu clico em sair, ele
+simplesmente fechou o programa.
+Ok? Quando vamos abrir, vamos maximizar de
+novo, quando eu abrir o arquivo. Vamos
+abrir o arquivo de
+novo, clico duas vezes aqui, e faço uma
+modificação. "Foi feita uma
+modificação no texto", vamos ver agora
+quando eu clico em "Sair", ele pergunta o
+"O texto foi modificado, quer
+salvar as modificações?".
+"Sim", quero salvar. Ele abriu pois não
+tá guardando o nome do arquivo. Mas vamos
+lá.
+Salvamos! Exatamente! E saiu fora. Agora
+vamos ver se a alteração foi feita? Então
+vamos lá. "Abrir" o
+arquivo, não foi feita a modificação
+ou não é esse arquivo. Eu acho que não
+era esse arquivo. Deixa eu ver se é
+outro
+arquivo...
+Ah! Esse arquivo
+aqui.
+Não! É esse arquivo aqui.
+Ah! "Foi feita uma modificação...", viu? É isso
+gente. E fiquem com o resto do vídeo aí...
+Eu espero que vocês tenham aprendido
+a criar uma aplicação Windows
+Forms. Tá? Não tem segredo, Ok? Sigam esse
+roteiro que eu fiz aqui. Eu vou deixar
+esse programa no meu Github. Vou
+modificar ele para ficar em inglês e vou
+colocar no meu Github. Se vocês quiserem
+vou deixar o link aqui na descrição. 
+Tá pessoal? É isso. Aplicações
+Windows Forms, são muito úteis
+para windows. Pra Windows, só! Tá? Se
+vocês tiverem Linux, Mac, eu vou ensinar
+em vídeos mais pra frente, como
+desenvolver uma aplicação multi sistema
+operacional. Até mais galera.
+Continue com o vídeo aí. 
+Se gostou do vídeo, deixe o seu like, se inscreva no
+canal se não tiver inscrito, e acione o
+sininho, para não perder mais vídeos como
+esse, e receber a notificação de todos os
+vídeos novos que chegarem no canal.
+Compartilhe com seus amigos que se
+interessam por tecnologia e programação.
+E deixe nos comentários o que achou do
+vídeo, e se quer ver mais conteúdos como
+esse. Obrigado por assistir! Até o próximo
+vídeo.
+Fui!!!
+
