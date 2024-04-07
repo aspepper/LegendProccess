@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProcessaLegendasConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce7433666b397951a4cb4d76d147ae4b83d915ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+133b4f18ecc34e2722caae806618f3d003e192f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProcessaLegendasConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProcessaLegendasConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
